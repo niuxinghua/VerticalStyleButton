@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E03E30831CAA9ABC00683A23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E30821CAA9ABC00683A23 /* main.m */; };
-		E03E30861CAA9ABC00683A23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E30851CAA9ABC00683A23 /* AppDelegate.m */; };
-		E03E30891CAA9ABC00683A23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E30881CAA9ABC00683A23 /* ViewController.m */; };
-		E03E308C1CAA9ABC00683A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03E308A1CAA9ABC00683A23 /* Main.storyboard */; };
-		E03E308E1CAA9ABC00683A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E03E308D1CAA9ABC00683A23 /* Assets.xcassets */; };
-		E03E30911CAA9ABC00683A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03E308F1CAA9ABC00683A23 /* LaunchScreen.storyboard */; };
+		1C4A3098416DAB6F31F0B2CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04824CEA27893AAA4128F298 /* libPods.a */; };
 		E03E309C1CAA9ABC00683A23 /* CustomButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E309B1CAA9ABC00683A23 /* CustomButtonTests.m */; };
 		E03E30A71CAA9ABC00683A23 /* CustomButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E30A61CAA9ABC00683A23 /* CustomButtonUITests.m */; };
+		E03E30C11CAA9C7800683A23 /* GGBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E30B71CAA9C7800683A23 /* GGBannerView.m */; };
+		E03E30C21CAA9C7800683A23 /* HJHomeBannTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E30B91CAA9C7800683A23 /* HJHomeBannTableViewCell.m */; };
+		E03E30C31CAA9C7800683A23 /* HJHomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E30BB1CAA9C7800683A23 /* HJHomeButton.m */; };
+		E03E30C41CAA9C7800683A23 /* HJHomeButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E30BD1CAA9C7800683A23 /* HJHomeButtonTableViewCell.m */; };
+		E03E30C51CAA9C7800683A23 /* HJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E30BF1CAA9C7800683A23 /* HJHomeViewController.m */; };
+		E03E30C61CAA9C7800683A23 /* home.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E03E30C01CAA9C7800683A23 /* home.xcassets */; };
+		E03E30C81CAA9FB700683A23 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03E30C71CAA9FB700683A23 /* CFNetwork.framework */; };
+		E03E30CA1CAA9FDF00683A23 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03E30C91CAA9FDF00683A23 /* SystemConfiguration.framework */; };
+		E03E30CC1CAA9FE900683A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03E30CB1CAA9FE900683A23 /* Foundation.framework */; };
+		E03E30D01CAAA00B00683A23 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03E30CD1CAAA00B00683A23 /* libAFNetworking.a */; };
+		E03E30D11CAAA00B00683A23 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03E30CE1CAAA00B00683A23 /* libMasonry.a */; };
+		E03E30D21CAAA00B00683A23 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03E30CF1CAAA00B00683A23 /* libSDWebImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +42,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04824CEA27893AAA4128F298 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F723646E658E6C50B5A366F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E03E307E1CAA9ABC00683A23 /* CustomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E03E30821CAA9ABC00683A23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E03E30841CAA9ABC00683A23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E03E30851CAA9ABC00683A23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E03E30871CAA9ABC00683A23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E03E30881CAA9ABC00683A23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E03E308B1CAA9ABC00683A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E03E308D1CAA9ABC00683A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E03E30901CAA9ABC00683A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E03E30921CAA9ABC00683A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E03E30971CAA9ABC00683A23 /* CustomButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E03E309B1CAA9ABC00683A23 /* CustomButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButtonTests.m; sourceTree = "<group>"; };
 		E03E309D1CAA9ABC00683A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E03E30A21CAA9ABC00683A23 /* CustomButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E03E30A61CAA9ABC00683A23 /* CustomButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButtonUITests.m; sourceTree = "<group>"; };
 		E03E30A81CAA9ABC00683A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03E30B61CAA9C7800683A23 /* GGBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBannerView.h; sourceTree = "<group>"; };
+		E03E30B71CAA9C7800683A23 /* GGBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBannerView.m; sourceTree = "<group>"; };
+		E03E30B81CAA9C7800683A23 /* HJHomeBannTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHomeBannTableViewCell.h; sourceTree = "<group>"; };
+		E03E30B91CAA9C7800683A23 /* HJHomeBannTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHomeBannTableViewCell.m; sourceTree = "<group>"; };
+		E03E30BA1CAA9C7800683A23 /* HJHomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHomeButton.h; sourceTree = "<group>"; };
+		E03E30BB1CAA9C7800683A23 /* HJHomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHomeButton.m; sourceTree = "<group>"; };
+		E03E30BC1CAA9C7800683A23 /* HJHomeButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHomeButtonTableViewCell.h; sourceTree = "<group>"; };
+		E03E30BD1CAA9C7800683A23 /* HJHomeButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHomeButtonTableViewCell.m; sourceTree = "<group>"; };
+		E03E30BE1CAA9C7800683A23 /* HJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHomeViewController.h; sourceTree = "<group>"; };
+		E03E30BF1CAA9C7800683A23 /* HJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHomeViewController.m; sourceTree = "<group>"; };
+		E03E30C01CAA9C7800683A23 /* home.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = home.xcassets; sourceTree = "<group>"; };
+		E03E30C71CAA9FB700683A23 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E03E30C91CAA9FDF00683A23 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E03E30CB1CAA9FE900683A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E03E30CD1CAAA00B00683A23 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		E03E30CE1CAAA00B00683A23 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "Pods/../build/Debug-iphoneos/libMasonry.a"; sourceTree = "<group>"; };
+		E03E30CF1CAAA00B00683A23 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "Pods/../build/Debug-iphoneos/libSDWebImage.a"; sourceTree = "<group>"; };
+		E9138604A2E31A6A79F497CB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03E30D01CAAA00B00683A23 /* libAFNetworking.a in Frameworks */,
+				E03E30D11CAAA00B00683A23 /* libMasonry.a in Frameworks */,
+				E03E30D21CAAA00B00683A23 /* libSDWebImage.a in Frameworks */,
+				E03E30CC1CAA9FE900683A23 /* Foundation.framework in Frameworks */,
+				E03E30CA1CAA9FDF00683A23 /* SystemConfiguration.framework in Frameworks */,
+				E03E30C81CAA9FB700683A23 /* CFNetwork.framework in Frameworks */,
+				1C4A3098416DAB6F31F0B2CD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +103,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2462C68FA5F517E31D23A843 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9138604A2E31A6A79F497CB /* Pods.debug.xcconfig */,
+				5F723646E658E6C50B5A366F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58C213860EAC69923144B6A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03E30CD1CAAA00B00683A23 /* libAFNetworking.a */,
+				E03E30CE1CAAA00B00683A23 /* libMasonry.a */,
+				E03E30CF1CAAA00B00683A23 /* libSDWebImage.a */,
+				E03E30CB1CAA9FE900683A23 /* Foundation.framework */,
+				E03E30C91CAA9FDF00683A23 /* SystemConfiguration.framework */,
+				E03E30C71CAA9FB700683A23 /* CFNetwork.framework */,
+				04824CEA27893AAA4128F298 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E03E30751CAA9ABC00683A23 = {
 			isa = PBXGroup;
 			children = (
-				E03E30801CAA9ABC00683A23 /* CustomButton */,
+				E03E30B41CAA9ACF00683A23 /* Button */,
 				E03E309A1CAA9ABC00683A23 /* CustomButtonTests */,
 				E03E30A51CAA9ABC00683A23 /* CustomButtonUITests */,
+				58C213860EAC69923144B6A9 /* Frameworks */,
+				2462C68FA5F517E31D23A843 /* Pods */,
 				E03E307F1CAA9ABC00683A23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,30 +146,6 @@
 				E03E30A21CAA9ABC00683A23 /* CustomButtonUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E03E30801CAA9ABC00683A23 /* CustomButton */ = {
-			isa = PBXGroup;
-			children = (
-				E03E30841CAA9ABC00683A23 /* AppDelegate.h */,
-				E03E30851CAA9ABC00683A23 /* AppDelegate.m */,
-				E03E30871CAA9ABC00683A23 /* ViewController.h */,
-				E03E30881CAA9ABC00683A23 /* ViewController.m */,
-				E03E308A1CAA9ABC00683A23 /* Main.storyboard */,
-				E03E308D1CAA9ABC00683A23 /* Assets.xcassets */,
-				E03E308F1CAA9ABC00683A23 /* LaunchScreen.storyboard */,
-				E03E30921CAA9ABC00683A23 /* Info.plist */,
-				E03E30811CAA9ABC00683A23 /* Supporting Files */,
-			);
-			path = CustomButton;
-			sourceTree = "<group>";
-		};
-		E03E30811CAA9ABC00683A23 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E03E30821CAA9ABC00683A23 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E03E309A1CAA9ABC00683A23 /* CustomButtonTests */ = {
@@ -140,6 +166,33 @@
 			path = CustomButtonUITests;
 			sourceTree = "<group>";
 		};
+		E03E30B41CAA9ACF00683A23 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				E03E30B51CAA9C7800683A23 /* Custom */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		E03E30B51CAA9C7800683A23 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E03E30B61CAA9C7800683A23 /* GGBannerView.h */,
+				E03E30B71CAA9C7800683A23 /* GGBannerView.m */,
+				E03E30B81CAA9C7800683A23 /* HJHomeBannTableViewCell.h */,
+				E03E30B91CAA9C7800683A23 /* HJHomeBannTableViewCell.m */,
+				E03E30BA1CAA9C7800683A23 /* HJHomeButton.h */,
+				E03E30BB1CAA9C7800683A23 /* HJHomeButton.m */,
+				E03E30BC1CAA9C7800683A23 /* HJHomeButtonTableViewCell.h */,
+				E03E30BD1CAA9C7800683A23 /* HJHomeButtonTableViewCell.m */,
+				E03E30BE1CAA9C7800683A23 /* HJHomeViewController.h */,
+				E03E30BF1CAA9C7800683A23 /* HJHomeViewController.m */,
+				E03E30C01CAA9C7800683A23 /* home.xcassets */,
+			);
+			name = Custom;
+			path = "CustomButton/未命名文件夹";
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E03E30AB1CAA9ABC00683A23 /* Build configuration list for PBXNativeTarget "CustomButton" */;
 			buildPhases = (
+				984F55E1205F3F3A34F00846 /* Check Pods Manifest.lock */,
 				E03E307A1CAA9ABC00683A23 /* Sources */,
 				E03E307B1CAA9ABC00683A23 /* Frameworks */,
 				E03E307C1CAA9ABC00683A23 /* Resources */,
+				E10F8D17C9C8139A924DAF5A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E03E30911CAA9ABC00683A23 /* LaunchScreen.storyboard in Resources */,
-				E03E308E1CAA9ABC00683A23 /* Assets.xcassets in Resources */,
-				E03E308C1CAA9ABC00683A23 /* Main.storyboard in Resources */,
+				E03E30C61CAA9C7800683A23 /* home.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +318,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		984F55E1205F3F3A34F00846 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E10F8D17C9C8139A924DAF5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E03E307A1CAA9ABC00683A23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E03E30891CAA9ABC00683A23 /* ViewController.m in Sources */,
-				E03E30861CAA9ABC00683A23 /* AppDelegate.m in Sources */,
-				E03E30831CAA9ABC00683A23 /* main.m in Sources */,
+				E03E30C41CAA9C7800683A23 /* HJHomeButtonTableViewCell.m in Sources */,
+				E03E30C31CAA9C7800683A23 /* HJHomeButton.m in Sources */,
+				E03E30C21CAA9C7800683A23 /* HJHomeBannTableViewCell.m in Sources */,
+				E03E30C51CAA9C7800683A23 /* HJHomeViewController.m in Sources */,
+				E03E30C11CAA9C7800683A23 /* GGBannerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +394,6 @@
 			targetProxy = E03E30A31CAA9ABC00683A23 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E03E308A1CAA9ABC00683A23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E03E308B1CAA9ABC00683A23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E03E308F1CAA9ABC00683A23 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E03E30901CAA9ABC00683A23 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E03E30A91CAA9ABC00683A23 /* Debug */ = {
@@ -409,23 +478,37 @@
 		};
 		E03E30AC1CAA9ABC00683A23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9138604A2E31A6A79F497CB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hjojo.CustomButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
 			};
 			name = Debug;
 		};
 		E03E30AD1CAA9ABC00683A23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F723646E658E6C50B5A366F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hjojo.CustomButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
 			};
 			name = Release;
 		};
@@ -496,6 +579,7 @@
 				E03E30AD1CAA9ABC00683A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E03E30AE1CAA9ABC00683A23 /* Build configuration list for PBXNativeTarget "CustomButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +588,7 @@
 				E03E30B01CAA9ABC00683A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E03E30B11CAA9ABC00683A23 /* Build configuration list for PBXNativeTarget "CustomButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +597,7 @@
 				E03E30B31CAA9ABC00683A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
